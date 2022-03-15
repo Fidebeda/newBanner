@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+}
+
+.container-slider{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+/* right part */
+.slide-right{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.slide-right > div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+
+.slide-right p{
+    color: white;
+    margin: 5%;
+    text-align: justify;
+}
+
+
+.color-1-slide{
+    background-color: aliceblue;
+
+}
+.color-2-slide{
+    background-color: bisque;
+
+}
+.color-3-slide{
+    background-color: greenyellow;
+
+}
+.color-4-slide{
+    background-color: lightgoldenrodyellow;
+
+}
+.color-5-slide{
+    background-color: thistle;
+
+}
+
+/* left part */
+.slide-left{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide-left > div{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image-1{
+    background-image: url(img/praha9.webp);
+}
+.image-2{
+    background-image: url(img/praha12.jpg);
+}
+.image-3{
+    background-image: url(img/praha4.jpg);
+}
+.image-4{
+    background-image: url(img/praha8.jpg);
+}
+.image-5{
+    background-image: url(img/praha7.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
