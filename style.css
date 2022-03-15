@@ -23,6 +23,7 @@ body{
     position: absolute;
     top: 0;
     left: 60%;
+    transition: transform .5s linear;
 }
 
 .slide-right > div{
@@ -41,6 +42,12 @@ body{
     color: white;
     margin: 5%;
     text-align: justify;
+}
+
+.slide-right h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: -15%;
 }
 
 
@@ -72,6 +79,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    transition: transform 0.5s linear;
 }
 
 .slide-left > div{
@@ -98,13 +106,39 @@ body{
     background-image: url(img/praha7.jpg);
 }
 
+/* arrows */
 
+.arrow-btn .arrow{
+    position: absolute;
+    z-index: 1000;
+    left: 60%;
+    top: 12%;
+    
 
+}
 
+.arrow img{
+    width: 15%;
+}
 
+.arrow-down img{
+    transform: translateX(-100%);
+    
+    /* transform: translateY(100%); */
+}
 
+.arrow-up img{
+    transform: translateY(-100%);
+}
 
-
+.arrow-down img:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+.arrow-up img:hover{
+    cursor: pointer;
+    border: 3px solid white;
+}
 
 
 
